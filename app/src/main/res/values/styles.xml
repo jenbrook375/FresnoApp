@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="title">
+        <!-- theme for id/title_text_view in list_view.xml -->
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="location">
+        <!-- theme for id/location_text_view in list_view.xml -->
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="info">
+        <!-- theme for id/info_text_view in list_view.xml -->
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+</resources>

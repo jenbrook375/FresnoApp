@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#877d61</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="farm_fresh">#9dc9aa</color>
+    <color name="day_trip">#90b5af</color>
+    <color name="entertainment">#666a86</color>
+    <color name="around_town">#7e90aa</color>
+    <color name="image_background">#3b444b</color>
+</resources>

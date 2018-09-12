@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image_item"
+        android:layout_width="175dp"
+        android:layout_height="225dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/fresno" />
+
+    <RelativeLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_toRightOf="@+id/image_item"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_text_view"
+            style="@style/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            tools:text="Title" />
+
+        <TextView
+            android:id="@+id/location_text_view"
+            style="@style/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_text_view"
+            tools:text="location" />
+
+        <TextView
+            android:id="@+id/info_text_view"
+            style="@style/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/location_text_view"
+            tools:text="info" />
+
+    </RelativeLayout>
+</RelativeLayout>
